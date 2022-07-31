@@ -1,11 +1,16 @@
-import './App.css';
+import styles from './App.module.css';
+import { Particle } from './components/Particle';
+import { Coordinator } from './components/ParticleCoordinator';
+const particlesCount = 100;
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      cool
+    <div className='App'>
+      <div className={styles.scene}>
+        <Coordinator count={particlesCount} />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
