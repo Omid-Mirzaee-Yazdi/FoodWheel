@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
 .scene {
   display: flex;
   flex-direction: row;
@@ -6,5 +8,19 @@
   width: 100vw;
   height: 100vh;
   flex-wrap: wrap;
-  background-color: #585858;
+  background-color: rgb(32, 33, 36);
+}
+.startButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  display: flex;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: 'Comfortaa', cursive;
+  margin: 0;
+  padding: 0;
 }
